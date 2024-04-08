@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    margin:10px;
+    background-color: #FF9B9B;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#middle{
+    background-color: #CBFFA9;
+}
+
+#static #middle{
+    position: static;
+}
+#relative #middle{
+    position:relative;
+    top: 100px;
+}

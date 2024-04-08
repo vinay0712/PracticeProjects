@@ -1,0 +1,11 @@
+button{
+    width: 150px;
+    height: 150px;
+    border:1px solid olive;
+    gap:10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: inline-block;
+    margin: auto;
+    padding:auto;
+}
